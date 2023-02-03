@@ -6,7 +6,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		
-	
+		System.out.println("Johanna is testing modausta");
 		TabularFormatter tf= new TabularFormatter();
 		ScreenReporter reporter=new ScreenReporter(tf);
 		FileReporter repFile=new FileReporter(tf, "report.txt");
